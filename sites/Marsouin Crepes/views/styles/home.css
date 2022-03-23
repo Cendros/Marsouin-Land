@@ -1,0 +1,69 @@
+:root {
+    --main-bg-color-1: rgba(150,144,255,1);
+    --main-bg-color-2: rgba(0,212,255,1);
+    --bg-transparent: rgba(0, 0, 0, 0.534);
+    --bg-transparent-2: rgba(0, 0, 0, 0);
+    --text-primary: rgb(100, 180, 255);
+    --text-secondary: rgb(13, 81, 145);
+    --bg-button-primary: #F5C005;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    background-image: url(../img/main-bg.jpg);
+    background-size: cover;
+    background-position: 50% 90%;
+}
+
+.container {
+    position: absolute;
+    top: 0vh;
+    left: 27%;
+    width: 46%;
+    height: 100%;
+    background: linear-gradient(90deg, var(--bg-transparent-2) 0%, var(--bg-transparent) 3%, var(--bg-transparent) 97%, var(--bg-transparent-2) 100%);
+}
+
+.title {
+    text-align: center;
+    color: var(--text-primary);
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 2.5rem;
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+.logo {
+    width: 45%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+.btn {
+    border: none;
+    border-radius: 15px;
+    padding: 0.3em 0.9em 0.3em 0.9em;
+    font-size: 1.5em;
+    color: var(--main-text-color);
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-image: url(../img/Crepe_button.png);
+    background-size: cover;
+    color: var(--text-secondary);
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
